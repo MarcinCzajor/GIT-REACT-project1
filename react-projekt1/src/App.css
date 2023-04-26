@@ -131,6 +131,7 @@ p {
 	transition-duration: 1s;
 }
 a:link {
+	color: white;
 	text-decoration: none;
 }
 
