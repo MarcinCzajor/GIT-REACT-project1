@@ -2,7 +2,7 @@ import React from "react";
 
 const Main = () => {
 	return (
-		<div className="main-pic">
+		<div className="mainPic">
 			<div className="overlay">
 				<div className="container">
 					<div className="mainTextCont">
@@ -12,7 +12,7 @@ const Main = () => {
 						<p className="textMainSm">
 							Nie wierz nam na słowo - sprawdź
 						</p>
-						<button className="button">oferta</button>
+						<button className="button"><a href="#offer">oferta</a></button>
 					</div>
 				</div>
 			</div>

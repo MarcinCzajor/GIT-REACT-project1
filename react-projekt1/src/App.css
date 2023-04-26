@@ -6,6 +6,10 @@ body {
 	padding: 0;
 	box-sizing: border-box;
 }
+.notAllowed {
+	cursor: not-allowed;
+}
+
 .container {
 	width: 100%;
 	height: 100%;
@@ -36,7 +40,7 @@ ul li {
 	display: none;
 }
 
-.main-pic {
+.mainPic {
 	width: 100%;
 	height: 100vh;
 	background-image: url(https://i.ytimg.com/vi/89bcFDlP5rw/maxresdefault.jpg);
@@ -125,6 +129,14 @@ p {
 	justify-content: center;
 	box-sizing: border-box;
 	transition-duration: 1s;
+}
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	color:white;
+	text-decoration: none;
 }
 .employeeContainer {
 	margin: auto;
@@ -241,7 +253,6 @@ p {
 		width: 960px;
 		display: flex;
 		justify-content: space-between;
-		align-items: center;
 		padding: 0 14px;
 	}
 	.textMain {

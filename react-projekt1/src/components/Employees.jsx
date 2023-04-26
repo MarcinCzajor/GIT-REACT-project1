@@ -4,7 +4,7 @@ import Dexters_Lab from "../pictures/dexters_lab.jpg";
 
 const Employees = () => {
 	return (
-		<div className="spec">
+		<div id="employees" className="spec">
 			<div className="container">
 				<h2>Nasi Specjaliści</h2>
 				<div className="employeeContainer">

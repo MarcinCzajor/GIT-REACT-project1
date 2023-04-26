@@ -16,7 +16,7 @@ const Offer = () => {
 		);
 	});
 	return (
-		<div className="offerBackground">
+		<div id="offer" className="offerBackground">
 			<div className="container">
 				<h3>Czym zajmuje się nasza fima?</h3>
 				<div className="gridContainer">{offerBoxMap}</div>
