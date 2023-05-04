@@ -3,6 +3,7 @@ import "./Offer";
 
 const OfferBoxTable = ({ name, isNew }) => {
 	const boxClass = isNew ? "gridItemNew gridItem" : "gridItem";
+
 	return (
 		<div className={boxClass}>
 			<div>

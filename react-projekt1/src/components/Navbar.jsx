@@ -6,7 +6,7 @@ const Navbar = () => {
 		<div className="navigation">
 			<div className="container">
 				<div className="dFlex">
-					<img src={Logo} height="50px" alt="logo" />
+					<img src={Logo} className="mainLogo" alt="logo" />
 					<ul>
 						<li><a href="#employees">o nas</a></li>
 						<li><a href="#offer">oferta</a></li>

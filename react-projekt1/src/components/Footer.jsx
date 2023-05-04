@@ -1,6 +1,7 @@
 import React from "react";
 import facebook from "../pictures/facebook.svg";
 import instagram from "../pictures/instagram.svg";
+
 const Foot = () => {
 	return (
 		<div className="footerMain">

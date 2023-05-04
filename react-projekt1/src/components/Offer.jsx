@@ -1,5 +1,5 @@
 import React from "react";
-import OfferBox from "./OfferBox";
+import OfferBox from "./OfferBoxTable";
 
 const Offer = () => {
 	const offerBoxTable = [
@@ -10,11 +10,13 @@ const Offer = () => {
 		{ name: "usługa5", isNew: false },
 		{ name: "usługa6", isNew: false },
 	];
+
 	const offerBoxMap = offerBoxTable.map((box, index) => {
 		return (
 			<OfferBox key={index} isNew={box.isNew} name={box.name}></OfferBox>
 		);
 	});
+
 	return (
 		<div id="offer" className="offerBackground">
 			<div className="container">
