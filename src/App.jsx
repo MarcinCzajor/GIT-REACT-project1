@@ -15,6 +15,6 @@ const App = () => {
 			<Foot />
 		</>
 	);
-}
+};
 
 export default App;

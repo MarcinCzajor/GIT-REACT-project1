@@ -12,7 +12,9 @@ const Main = () => {
 						<p className="textMainSm">
 							Nie wierz nam na słowo - sprawdź
 						</p>
-						<button className="button"><a href="#offer">oferta</a></button>
+						<button className="button">
+							<a href="#offer">oferta</a>
+						</button>
 					</div>
 				</div>
 			</div>

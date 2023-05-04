@@ -8,9 +8,17 @@ const Navbar = () => {
 				<div className="dFlex">
 					<img src={Logo} className="mainLogo" alt="logo" />
 					<ul>
-						<li><a href="#employees">o nas</a></li>
-						<li><a href="#offer">oferta</a></li>
-						<li><a href="#employees" className="notAllowed">kontakt</a></li>
+						<li>
+							<a href="#employees">o nas</a>
+						</li>
+						<li>
+							<a href="#offer">oferta</a>
+						</li>
+						<li>
+							<a href="#employees" className="notAllowed">
+								kontakt
+							</a>
+						</li>
 					</ul>
 				</div>
 			</div>
