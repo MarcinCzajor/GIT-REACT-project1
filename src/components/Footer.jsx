@@ -5,7 +5,7 @@ import instagram from "../pictures/instagram.svg";
 const Footer = () => {
 	return (
 		<div className="footerMain">
-			<div className="footContainer">
+			<div className="footerContainer">
 				<div className="footer">
 					<span>
 						<p>Nazwa Firmy - wszelkie prawa zastrzeżone, 2023</p>
