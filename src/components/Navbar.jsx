@@ -7,14 +7,14 @@ const Navbar = () => {
 			<div className="container">
 				<div className="dFlex">
 					<img src={Logo} className="mainLogo" alt="logo" />
-					<ul>
-						<li>
+					<ul className="linkList">
+						<li className="linkListItems">
 							<a href="#employees">o nas</a>
 						</li>
-						<li>
+						<li className="linkListItems">
 							<a href="#offer">oferta</a>
 						</li>
-						<li>
+						<li className="linkListItems">
 							<a href="#employees" className="notAllowed">
 								kontakt
 							</a>

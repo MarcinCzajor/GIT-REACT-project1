@@ -2,7 +2,7 @@ import React from "react";
 import facebook from "../pictures/facebook.svg";
 import instagram from "../pictures/instagram.svg";
 
-const Foot = () => {
+const Footer = () => {
 	return (
 		<div className="footerMain">
 			<div className="footContainer">
@@ -21,4 +21,4 @@ const Foot = () => {
 	);
 };
 
-export default Foot;
+export default Footer;

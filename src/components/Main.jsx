@@ -7,7 +7,7 @@ const Main = () => {
 				<div className="container">
 					<div className="mainTextCont">
 						<p className="textMain">
-							Nasza firma oferuje najwyższej jakości produkty.{" "}
+							Nasza firma oferuje najwyższej jakości produkty.
 						</p>
 						<p className="textMainSm">
 							Nie wierz nam na słowo - sprawdź

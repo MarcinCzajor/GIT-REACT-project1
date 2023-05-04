@@ -3,12 +3,12 @@ import OfferBox from "./OfferBoxTable";
 
 const Offer = () => {
 	const offerBoxTable = [
-		{ name: "usługa1", isNew: true },
-		{ name: "usługa2", isNew: false },
-		{ name: "usługa3", isNew: false },
-		{ name: "usługa4", isNew: false },
-		{ name: "usługa5", isNew: false },
-		{ name: "usługa6", isNew: false },
+		{ name: "usługa 1", isNew: true },
+		{ name: "usługa 2", isNew: false },
+		{ name: "usługa 3", isNew: false },
+		{ name: "usługa 4", isNew: false },
+		{ name: "usługa 5", isNew: false },
+		{ name: "usługa 6", isNew: false },
 	];
 
 	const offerBoxMap = offerBoxTable.map((box, index) => {
@@ -21,7 +21,7 @@ const Offer = () => {
 		<div id="offer" className="offerBackground">
 			<div className="container">
 				<h3>Czym zajmuje się nasza fima?</h3>
-				<div className="gridContainer">{offerBoxMap}</div>
+				<div className="boxContainer">{offerBoxMap}</div>
 			</div>
 		</div>
 	);
