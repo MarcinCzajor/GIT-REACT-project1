@@ -115,13 +115,15 @@ p {
 	font-size: 24px;
 	width: 50%;
 }
-.button {
+
+.buttonLink {
+	text-decoration: none;
+	color: white;
 	height: 41px;
 	width: 164px;
 	margin: 20px 0;
 	border: 3px solid white;
 	background: none;
-	color: white;
 	text-align: center;
 	align-items: center;
 	text-decoration: none;
@@ -134,16 +136,7 @@ p {
 	transition-duration: 1s;
 }
 
-a:link {
-	color: white;
-	text-decoration: none;
-}
-
-a:visited {
-	color: white;
-	text-decoration: none;
-}
-.button:hover {
+.buttonLink:hover {
 	background-color: #f1f1f1;
 	color: black;
 }
