@@ -12,9 +12,10 @@ const Main = () => {
 						<p className="textMainSm">
 							Nie wierz nam na słowo - sprawdź
 						</p>
-						
-							<a href="#offer" className="buttonLink">oferta</a>
-						
+
+						<a href="#offer" className="buttonLink">
+							oferta
+						</a>
 					</div>
 				</div>
 			</div>
