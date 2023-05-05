@@ -5,14 +5,18 @@ const Navbar = () => {
 	return (
 		<div className="navigation">
 			<div className="container">
-				<div className="dFlex">
+				<div className="navContainer">
 					<img src={Logo} className="mainLogo" alt="logo" />
 					<ul className="linkList">
 						<li className="linkListItems">
-							<a href="#employees">o nas</a>
+							<a href="#employees" className="linkClass">
+								o nas
+							</a>
 						</li>
 						<li className="linkListItems">
-							<a href="#offer">oferta</a>
+							<a href="#offer" className="linkClass">
+								oferta
+							</a>
 						</li>
 						<li className="linkListItems">
 							<a href="#employees" className="notAllowed">

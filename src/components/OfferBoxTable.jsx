@@ -2,7 +2,7 @@ import React from "react";
 import "./Offer";
 
 const OfferBoxTable = ({ name, isNew }) => {
-	const boxClass = isNew ? "gridItemNew gridItem" : "gridItem";
+	const boxClass = isNew ? "offerItemNew offerItem" : "offerItem";
 
 	return (
 		<div className={boxClass}>
